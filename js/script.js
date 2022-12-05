@@ -48,7 +48,7 @@ $(function() {
         if (timer_btm > $(document).height()) {
             document.querySelector(".timer-section").style.transition = "0.2s cubic-bezier(0.645, 0.045, 0.355, 1)";
             document.querySelector(".timer-section").style.marginTop = "-65vh";
-            document.querySelector(".timer-section").style.paddingTop = "25vh";
+            
             document.querySelector(".timer-section").style.opacity = 0;
             console.log("fvbdb");
 
